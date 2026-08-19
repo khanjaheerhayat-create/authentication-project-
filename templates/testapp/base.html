@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" >JAHEER CLASSES</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/java">JAVA EXAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/python">PYTHON EXAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/aptitude">APTITUDE EXAM</a>
+      </li>
+      </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="/signup">signup</a></li>
+          <li class="nav-item"><a class="nav-link" href="/accounts/login">login</a></li>
+          <li class="nav-item"><a class="nav-link" href="/accounts/logout">logout</a></li>
+        </ul>
+  </div>
+</nav>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
